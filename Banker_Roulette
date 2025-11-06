@@ -1,0 +1,8 @@
+import random
+#how to pick a random name from list
+friends = ["Alice", "Bob", "Charlie", "David", "Emanuel"]
+print(random.choice(friends))
+
+#second way to write
+random_index = random.randint(0, 4)
+print(friends[random_index])
