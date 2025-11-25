@@ -1,17 +1,116 @@
 import random
+stages = [r'''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ / \  |
+      |
+=========
+''', r'''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ /    |
+      |
+=========
+''', r'''
+  +---+
+  |   |
+  O   |
+ /|\  |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|   |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+  |   |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+      |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========
+''']
 word_list = ["aardvark", "baboon", "camel"]
 
-# TODO-1 - Randomly choose a word from the word_list and assign it to a variable called chosen_word. Then print it.
+#Randomly choose a word from the word_list and assign it to a variable called chosen_word. Then print it.
 chosen_word = random.choice(word_list)
 print(chosen_word)
 
-# TODO-2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
-guess = input("Guess a letter: ").lower()
+#Create a variable called 'lives' to keep track of the number of lives left. Set 'lives' to equal 6.
+#Create a "placeholder" with the same number of blanks as the chosen_word
+lives = 6
+placeholder = ""
+word_length = len(chosen_word)
+for position in range(word_length):
+    placeholder += "_"
+print(placeholder)
 
-# TODO-3 - Check if the letter the user guessed (guess) is one of the letters in the chosen_word. Print "Right" if it
-#  is, "Wrong" if it's not.
-for chosen_word_letters in chosen_word:
-    if chosen_word_letters == guess:
-        print("Right")
-    else:
-         print("Wrong")
+#Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
+#Use a while loop to let the user guess again.
+#Create a "display" that puts the guess letter in the right positions and _ in the rest of the string.
+#Change the for loop so that you keep the previous correct letters in display.
+#Update the code below to tell the user how many lives they have left.
+game_over = False
+correct_letters = []
+
+while not game_over:
+    print(f"****************************{lives}/6 LIVES LEFT****************************")
+    guess = input("Guess a letter: ").lower()
+
+#If the user has entered a letter they've already guessed, print the letter and let them know.
+    if guess in correct_letters:
+        print(f"You've already guessed {guess}. Please try again.")
+    display = ""
+
+    for letters in chosen_word:
+        if letters == guess:
+            display += letters
+            correct_letters.append(guess)
+        elif letters in correct_letters:
+            display += letters
+        else:
+            display += "_"
+
+    print("Word to guess: " + display)
+
+#If guess is not a letter in the chosen_word, Then reduce 'lives' by 1.
+#If lives goes down to 0 then the game should stop and it should print "You lose."
+    if guess not in chosen_word:
+        lives -= 1
+        print(f"You guessed {guess}, thats not in the word. You lose a life.")
+        if lives == 0:
+            game_over = True
+            print(f"***********************YOU LOSE**********************\n The correct word is {chosen_word}")
+
+     if "_" not in display:
+        game_over = True
+        print("****************************YOU WIN****************************")
+
+#print the ASCII art from 'stages' vthat corresponds to the current number of 'lives' the user has remaining.
+    print(stages[lives])
+
