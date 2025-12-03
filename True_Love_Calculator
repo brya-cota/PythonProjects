@@ -1,0 +1,32 @@
+# Create a function called calculate_love_score() that determines the compatibility between two names based on
+# the occurrence of letters in "TRUE" and "LOVE"
+# 1. Take both people's names and check for the number of times the letters in the word TRUE occurs.
+# 2. Then check for the number of times the letters in the word LOVE occurs.
+# 3. Then combine these numbers to make a 2 digit number and print it out.
+
+def calculate_love_score(name1, name2):
+    combined_names = (name1 + name2).lower()
+    
+    #checking for 'TRUE' values
+    t_letter_check = combined_names.count("t")
+    r_letter_check = combined_names.count("r")
+    u_letter_check = combined_names.count("u")
+    e_letter_check = combined_names.count("e")
+    true_value = t_letter_check + r_letter_check + u_letter_check + e_letter_check
+    
+    #checking for 'LOVE' values
+    l_letter_check = combined_names.count("l")
+    o_letter_check = combined_names.count("o")
+    v_letter_check = combined_names.count("v")
+    e_letter_check2 = combined_names.count("e")
+    love_value = l_letter_check + o_letter_check + v_letter_check + e_letter_check2
+    
+    #turning integer values into string to concatinate them
+    str_true_value = str(true_value)
+    str_love_value = str(love_value)
+    
+    true_love_total = str_true_value + str_love_value
+    
+    print (true_love_total)
+    
+calculate_love_score("Kim Kardashian", "Kanye West")
