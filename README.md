@@ -21,6 +21,8 @@ Each project lives in its own folder with easy-to-run scripts to help you explor
 | **Tip_Calculator** | Splits a bill and calculates tips |
 | **Treasure_Island** | Text adventure game with branching choices |
 | **True_Love_Calculator** | Fun “compatibility” calculator |
+| **Student_Scores** | Comparing students scores and assigning a Grade |
+| **Silent_Auction** | Compares multiple bids, clears the screen, and choses winner based on the highest bid |
 
 ---
 
