@@ -1,4 +1,4 @@
-# 🐍 PythonBEG — Python Beginner Projects
+# 🐍 PythonBEG — Python Beginner Projects 
 
 Welcome! This repository contains beginner-friendly Python projects that I built while learning core programming concepts like variables, loops, functions, conditionals, and user input.
 
