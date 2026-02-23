@@ -1,37 +1,80 @@
-# 🐍 PythonBEG — Python Beginner Projects 
+👋 Hi, I'm Brya Cota
 
-Welcome! This repository contains beginner-friendly Python projects that I built while learning core programming concepts like variables, loops, functions, conditionals, and user input.
+I'm an aspiring **Software Engineer** and **AI/ML developer** currently pursuing my **B.S. in Artificial Intelligence & Machine Learning**.  
+I enjoy building data-driven applications, experimenting with machine learning models, and automating real-world workflows.
 
-Each project lives in its own folder with easy-to-run scripts to help you explore Python fundamentals through fun and practical exercises.
-
----
-
-## 🚀 Projects Included
-
-| Project | Description |
-|---------|-------------|
-| **BMI_Calculator** | Calculates Body Mass Index from user input |
-| **Banker_Roulette** | Random name picker for choosing a banker |
-| **Casesar_Cipher** | Simple letter shift encryption program |
-| **Hangman** | Classic word guessing game |
-| **Password_Generator** | Generates a random secure password |
-| **Python_Pizza** | Takes orders and calculates pizza costs |
-| **Rock_Paper_Scissors** | Classic Rock-Paper-Scissors game |
-| **Rollercaster** | Height checker for rollercoaster rides |
-| **Tip_Calculator** | Splits a bill and calculates tips |
-| **Treasure_Island** | Text adventure game with branching choices |
-| **True_Love_Calculator** | Fun “compatibility” calculator |
-| **Student_Scores** | Comparing students scores and assigning a Grade |
-| **Silent_Auction** | Compares multiple bids, clears the screen, and choses winner based on the highest bid |
+Right now, I’m focused on:
+- Strengthening my Python & SQL skills  
+- Building end-to-end ML workflows  
+- Learning Azure ML + cloud engineering  
+- Creating hands-on SWE + ML projects to grow my portfolio  
 
 ---
 
-## 🧰 Skills & Concepts Practiced
+## 🚀 Projects & Work
 
-- Python basics: variables, data types, input/output  
-- Control flow: loops, conditionals  
-- Functions & modules  
-- Randomness & simple logic  
-- Basic game logic and beginner UI in terminal
+### 🔹 **Azure Machine Learning Pipeline (In Progress)**
+An end-to-end ML pipeline built in Azure ML Studio:  
+- Dataset registration  
+- Compute cluster provisioning  
+- Training & evaluation scripts  
+- Model versioning  
+- Experiment tracking  
+
+This project is part of my Introduction to AI course and demonstrates early experience with cloud-based MLOps.
 
 ---
+
+### 🔹 **Beginner Python Projects**
+**Repo:** [PythonBEG](https://github.com/brya-cota/PythonBEG)  
+A growing collection of foundational Python exercises and small projects covering:
+- Control flow  
+- Functions  
+- Basic automation  
+- File operations  
+- Data manipulation  
+- Problem-solving logic  
+
+These projects serve as the base of my Python learning journey.
+
+---
+
+### ⭐ Upcoming Projects (Spring 2026)
+I'm currently designing several new ML & SWE projects to strengthen my portfolio:
+- **Predictive modeling (scikit-learn)** – forecasting & classification  
+- **API development (FastAPI)** – deploy ML models as web services  
+- **Mini data engineering pipelines** – ingestion → cleaning → storage → modeling  
+- **NLP experiments** – text classification & embeddings  
+
+If you'd like to see something specific, feel free to suggest a project!
+
+---
+
+## 🧠 Technical Skills
+
+**Languages:** Python, SQL, C/C++, Java, JavaScript  
+**ML Skills:** scikit-learn, NumPy, Pandas, model evaluation, preprocessing  
+**Cloud:** Azure, Azure ML Studio  
+**Tools:** Git/GitHub, Power BI, Excel automation, VS Code  
+**Other:** Data visualization, forecasting, reporting automation  
+
+---
+
+## 🌱 What I'm Learning Right Now
+- Building ML pipelines in Azure  
+- Improving Python OOP & algorithm fundamentals  
+- Deploying models via APIs  
+- Version control best practices  
+- Data structures & algorithms for SWE roles  
+
+---
+
+## 📫 Connect With Me
+Feel free to reach out if you’d like to collaborate, share ideas, or give feedback on my projects!
+
+📧 **Email:** bryacota@gmail.com  
+📍 **Based in Arizona, USA**  
+
+---
+
+Thanks for stopping by! More projects coming soon 🚀
