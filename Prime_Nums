@@ -1,5 +1,5 @@
 '''
-This function will check is a number is prime (only divisible by itself and the number 1)
+This function will check if a number is prime (only divisible by itself and the number 1)
 '''
 
 def is_prime(num):
