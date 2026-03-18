@@ -1,0 +1,50 @@
+'''
+This is a game called "Guess the number". You'll have to guess a random number between 1 and 100.
+There is an easy and hard level - which will decide how many guessing attempts you'll receive (5 or 10).
+'''
+
+import random
+
+def difficulty ():
+    easy_or_hard = input("Choose a difficulty. Type 'easy' or 'hard': ")
+    if easy_or_hard == "hard":
+        turns = 5
+        print(f"You have {turns} attempts remaining to guess the number.")
+        return turns
+    else:
+        turns = 10
+        print(f"You have {turns} attempts remaining to guess the number.")
+        return turns
+
+def guess_the_number(guess, number, attempt):
+    if guess > number:
+        print("Your guess was too high.")
+        return attempt - 1
+    elif guess < number:
+        print("Your guess was too low.")
+        return attempt - 1
+    else:
+        return attempt
+
+def game ():
+    # Randomly choose a number between 1 and 100 then print it.
+    random_number = random.randint(1, 100)
+
+    # Prompting the user to chose easy or hard level then giving 5 or 10 guess attempts based on their choice.
+    print("Welcome to the Number Guessing Game!\nI'm thinking of a number between 1 and 100.")
+
+    attempts = difficulty()
+
+    while attempts > 0:
+        user_guess = int(input("Make a guess: "))
+        attempts = guess_the_number(user_guess,random_number,attempts)
+
+        if user_guess == random_number:
+            print(f"Yay! You've guessed the correct number - which was {random_number}Awesome!")
+            return
+        print(f"You have {attempts} attempts remaining to guess the number.")
+
+    print(f"\nYou lose. You have {attempts} attempts remaining to guess the number - which was {random_number}. "
+    f"\nPlease refresh to play again.")
+
+game()
