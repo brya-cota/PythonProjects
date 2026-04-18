@@ -1,8 +1,6 @@
 """
 Brya Cota
-CSC101
 2/16/26
-
 This program will calculate the total expenses by summing up the food, rent, and entertainment expenses, then
 calculate the remaining budget by subtracting the total expenses from the monthly budget.
 """
