@@ -1,6 +1,5 @@
 '''
 Brya Cota
-CSC101
 3/30/26
 This program is used to practice (and create) a basic function that takes parameters.
 '''
