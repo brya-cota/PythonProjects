@@ -1,8 +1,7 @@
 """
 Brya Cota
-CSC101
 3/26/26
-This program will generate various shapes using nested for loops based on the size that the user enters.
+This program will generate various shapes using nested for loops based on the size that the user enters - using nested for loops.
 """
 
 print("===AI Pattern Training Data Generator===")
