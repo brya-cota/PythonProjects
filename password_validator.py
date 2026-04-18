@@ -1,6 +1,5 @@
 '''
 Brya Cota
-CSC101
 3/15/26
 This program implements a basic password protection system. The program should continuously prompt the user for a
 password until they enter the correct one, then display a welcome message.
