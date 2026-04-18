@@ -1,6 +1,5 @@
 '''
 Brya Cota
-CSC101
 3/6/26
 This program removes the gray component from RGB color values by identifying and subtracting the minimum value from all
 three color components within an RGB.
