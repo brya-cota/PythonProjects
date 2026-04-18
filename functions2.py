@@ -1,6 +1,5 @@
 '''
 Brya Cota
-CSC101
 3/30/26
 This program is to practice and create basic functions that take parameters and return values.
 '''
