@@ -1,6 +1,5 @@
 '''
 Brya Cota
-CSC101
 3/12/26
 This program will calculate the sum of the squares of integers in user-specified range using a for loop and a while loop.
 '''
