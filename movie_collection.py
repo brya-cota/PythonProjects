@@ -1,6 +1,5 @@
 '''
 Brya Cota
-CSC101
 2/26/26
 This program will create a number of lists to manage a movie collection and customer purchase system.
 I'll be practicing accessing elements, slicing, modifying lists, and using built-in list methods.
