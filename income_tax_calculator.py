@@ -1,6 +1,5 @@
 '''
 Brya Cota
-CSC101
 4/1/26
 This program will compute the income tax owed by a user based on their, wages, taxable interest,
 unemployment compensation, filing status and taxes already withheld.
