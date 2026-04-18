@@ -1,6 +1,5 @@
 '''
 Brya Cota
-CSC101
 04/10/2026
 This program is a comprehensive budget tracking system that demonstrates modules, advanced function parameters,
 scope management, and error handling.
