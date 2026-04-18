@@ -1,8 +1,6 @@
 '''
 Brya Cota
-4/7/26
-CSC101
-README: In this activity, the program will practice lambda syntax by converting simple functions, then apply
+In this activity, the program will practice lambda syntax by converting simple functions, then apply
 lambdas with map(), filter(), sorted(). I have converted regular functions into lambda expressions, starting
 with simple syntax practice, then using them with built-in functions.
 '''
