@@ -26,7 +26,7 @@ This project is part of my Introduction to AI course and demonstrates early expe
 ---
 
 ### 🔹 **Beginner Python Projects**
-**Repo:** [PythonBEG](https://github.com/brya-cota/PythonBEG)  
+**Repo:** [PythonProjects](https://github.com/brya-cota/PythonBEG)  
 A growing collection of foundational Python exercises and small projects covering:
 - Control flow  
 - Functions  
@@ -41,7 +41,6 @@ These projects serve as the base of my Python learning journey.
 
 ### ⭐ Upcoming Projects (Spring 2026)
 I'm currently designing several new ML & SWE projects to strengthen my portfolio:
-- **Predictive modeling (scikit-learn)** – forecasting & classification  
 - **API development (FastAPI)** – deploy ML models as web services  
 - **Mini data engineering pipelines** – ingestion → cleaning → storage → modeling  
 - **NLP experiments** – text classification & embeddings  
@@ -53,7 +52,7 @@ If you'd like to see something specific, feel free to suggest a project!
 ## 🧠 Technical Skills
 
 **Languages:** Python, SQL, C/C++, Java, JavaScript  
-**ML Skills:** scikit-learn, NumPy, Pandas, model evaluation, preprocessing  
+**ML Skills:** NumPy, Pandas, model evaluation, preprocessing  
 **Cloud:** Azure, Azure ML Studio  
 **Tools:** Git/GitHub, Power BI, Excel automation, VS Code  
 **Other:** Data visualization, forecasting, reporting automation  
