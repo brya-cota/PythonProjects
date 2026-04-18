@@ -1,6 +1,5 @@
 """
 Brya Cota
-CSC101
 2/16/26
 This program will show you how to manipulate integers and extract specific parts using mathematical operations.
 Use the % (modulus) and // (integer division) operators to format a 10-digit phone number.
