@@ -1,6 +1,5 @@
 '''
 Brya Cota
-CSC101
 2/23/26
 This program will show you how to manipulate strings using built-in string function, underatnd how
 to format strings for output.
