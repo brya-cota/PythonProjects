@@ -1,6 +1,5 @@
 '''
 Brya Cota
-CSC101
 3/4/26
 This program accepts three numbers as input and determines the smallest among them.
 '''
