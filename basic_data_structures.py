@@ -1,6 +1,5 @@
 '''
 Brya Cota
-CSC101
 2/25/26
 This program helps us learn about basic data structures: lists, tuples, dictionaries, and sets
 '''
