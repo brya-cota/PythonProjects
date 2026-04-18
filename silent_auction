@@ -1,4 +1,4 @@
-#building a blind auction with multiple users and storing the names/bids into a dictionary.
+'''Building a blind auction with multiple users and storing the names/bids into a dictionary.'''
 
 import art
 print(art.logo)
