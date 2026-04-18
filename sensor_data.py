@@ -1,6 +1,5 @@
 '''
 Brya Cota
-CSC101
 3/14/26
 This program will focus on Using for loops to read through a list, Random number generation, and Calculating the average temperature
 '''
