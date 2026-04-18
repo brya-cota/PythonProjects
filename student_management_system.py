@@ -1,7 +1,6 @@
 '''
 Brya Cota
 4/14/26
-CSC101
 This program is a comprehensive student management system where institutions can manage students, their courses,
 and related information. In this program I'll demonstrate how to define and manage multiple attributes and methods,
 use class relationships (object composition), instantiate multiple objects and store them in collections and access,
