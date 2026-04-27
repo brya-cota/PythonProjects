@@ -1,6 +1,5 @@
 '''
 Brya Cota
-CSC101
 4/21/26
 In this activity I'll demonstrate how to write a list of numbers toa text file using Python, read those numbers
 from the file, and then calculate the average of the numbers read from the file
