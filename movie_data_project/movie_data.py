@@ -1,6 +1,5 @@
 '''
 Brya Cota
-CSC101
 4/22/26
 This program will read data from a CSV file and display it in a formatted table.
 '''
