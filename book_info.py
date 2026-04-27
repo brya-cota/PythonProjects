@@ -30,20 +30,3 @@ book1.display_info()
 
 # Applying a 10% discount on the book based on the calculation in the apply_discount() method
 book1.apply_discount(10)
-
-# REVIEW QUESTIONS:
-'''What does the self keyword refer to in your class methods?
-The self keyword refers to the current instance of the class. It's used to access attributes and methods within the class
-definition. 
-
-What is the purpose of the __init__() method in the Book class?
-The __init__ method is a special method used to initialize instance attributes. It acts as the constructor because it
-constructs the objects. This specific method in the Book class initialized the attributes (variables) title, author, and 
-price so we could use it in the ither class methods (only if you attach them to self). 
-
-Which method would you call to reduce the price of a book?
-apply_discount()
-
-What will happen if you create a Book object with only one argument: book = Book("The Hobbit")?
-A TypeError will be thrown because the other 2 required arguments are missing. 
-'''
